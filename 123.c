@@ -1,7 +1,17 @@
-#include <stdio.h>  // Библиотека 
+#include <stdio.h> 
 
 int main() {
-    // Вроде норм
+    char fio[100]; 
+
+ 
+    printf("Введите ваше ФИО: ");
+
+ 
+    fgets(fio, sizeof(fio), stdin);
+
+    
     printf("Hello, World!\n");
-    return 0;  // zzz
+    printf("Ваше ФИО: %s", fio);
+
+    return 0;  
 }
