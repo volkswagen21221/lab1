@@ -1,17 +1,16 @@
-#include <stdio.h> 
+#include <iostream>
 
-int main() {
-    char fio[100]; 
 
- 
-    printf("Введите ваше ФИО: ");
+int main()
+ {
 
- 
-    fgets(fio, sizeof(fio), stdin);
+string name;
 
-    
-    printf("Hello, World!\n");
-    printf("Ваше ФИО: %s", fio);
+std::cout<<:"Enter your name: "
 
-    return 0;  
+std::cin>>name;
+
+std::cout<<"Hello word from "<<name<<std::end;
+
+    return 0; 
 }
